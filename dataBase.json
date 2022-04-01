@@ -1,0 +1,39 @@
+{
+  "m":[
+    {
+      "bgImg":"./resource/malayziya.png",
+      "participantImg":"./resource/image-190.png",
+      "participant":"By Benjamin Turner",
+      "job":"Traveler",
+      "destination":"In Southeast England, White Cliffs and Fish"
+    },
+    {
+      "bgImg":"./resource/italiya.png",
+      "participantImg":"./resource/image-193.png",
+      "participant":"By Elizabeth Olsen",
+      "job":"Photographer",
+      "destination":"In northern Italy, Milano Centrale railway"
+    },
+    {
+      "bgImg":"./resource/kiyev.png",
+      "participantImg":"./resource/image-192.png",
+      "participant":"By Walter Isaacson",
+      "job":"Journalist",
+      "destination":"Ukraine Kiev, Holy Dormition Kiev-Pechersk"
+    },
+    {
+      "bgImg":"./resource/qazoq.png",
+      "participantImg":"./resource/image-194.png",
+      "participant":"By Gulsezim Khassen",
+      "job":"Fashion Model",
+      "destination":"Kazakhstan, Nur-Sultan, Parliament House"
+    },
+    {
+      "bgImg":"./resource/turkiya.png",
+      "participantImg":"./resource/image-207.png",
+      "participant":"By Ebru Sahin",
+      "job":"Actor",
+      "destination":"Turkey Istanbul, Istiklal Avenue"
+    }
+  ]
+}

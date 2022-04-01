@@ -1,0 +1,242 @@
+@font-face {
+  font-family: "Lato";
+  src: url("./resource/font/Lato-Heavy.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato-Semibold";
+  src: url("./resource/font/Lato-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato-Medium";
+  src: url("./resource/font/Lato-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Slab Bold";
+  src: url("./resource/font/RobotoSlab-Bold.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #30363d !important;
+}
+p {
+  margin: 0 !important;
+}
+a {
+  text-decoration: none !important;
+}
+
+/* font's class */
+.lato {
+  font-family: "Lato";
+  font-size: 14px;
+  line-height: 20px;
+  color: #262d33;
+}
+
+.lato-semibold {
+  font-family: "Lato-Semibold";
+  font-size: 14px;
+  line-height: 20px;
+  color: #939699;
+}
+
+.lato-medium {
+  font-family: "Lato-Medium";
+  font-size: 16px;
+  line-height: 20px;
+  color: #4b5157;
+}
+
+.roboto-slab-bold {
+  font-family: "Roboto Slab Bold";
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
+}
+
+/* body-1 Section */
+.body-1-section {
+  width: 100%;
+  height: 1145px;
+  background-color: #e5e5e5;
+  position: relative;
+}
+.body-1-section .container:first-child {
+  position: absolute;
+  top: -285px;
+  left: 105px;
+}
+.travel {
+  width: 100%;
+  height: 570px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.south-england-1 {
+  position: relative;
+  width: 77%;
+  height: 570px;
+  overflow: auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.south-england {
+  width: 100%;
+  height: 570px;
+  /* background: url("./resource/"); */
+  background: rgba(0, 0, 0, 0.525);
+  position: relative;
+}
+.benjamin {
+  position: absolute;
+  top: 55px;
+  left: 55px;
+  display: flex;
+}
+.benjamin span {
+  margin-left: 10px;
+  padding-top: 5px;
+}
+.benjamin .lato-medium {
+  color: #fff;
+  opacity: 0.85;
+}
+.benjamin .lato-semibold {
+  color: #fff;
+  opacity: 0.4;
+}
+/* SOUTH ENGLAND PAGE INFOS */
+.south-england-info {
+  position: absolute;
+  top: 230px;
+  left: 55px;
+  right: 224px;
+}
+.south-england-info .lato-medium {
+  color: #4592ff;
+}
+.south-england-info .roboto-slab-bold {
+  font-size: 40px;
+  line-height: 50px;
+  padding-top: 25px;
+}
+.england-div {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+}
+.button-read {
+  padding: 10px 17px 10px 25px;
+  background-color: #4592ff;
+  color: #fff;
+  border: none;
+  border-radius: 21px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Lato-Semibold";
+}
+.south-england-info .button-read img {
+  margin-left: 8px;
+  width: 20px;
+}
+.play {
+  margin-left: 30px;
+  position: relative;
+}
+.play img:last-child {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+.pause-item {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.pause-item .lato-medium {
+  color: #fff;
+  opacity: 0.85;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.recommended {
+  width: 33%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.recommended .divv {
+  padding: 18px 25px;
+  border-top: 1px solid #d9dadb;
+  position: relative;
+
+  transition: all 1s linear;
+}
+.romb {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  border: none;
+  opacity: 0;
+
+  transition: 0.25s linear;
+}
+.recommended .divv:hover {
+  background-color: #f5f5f5;
+}
+.recommended .divv:hover .romb {
+  left: -10px;
+  background-color: #f5f5f5;
+  opacity: 1;
+}
+.recommended-p {
+  font-family: "Lato-Semibold";
+  color: #262d33;
+  font-size: 14px;
+  line-height: 20px;
+}
+.recommended-div {
+  padding: 19px 25px;
+  border: none;
+}
+.recommended-div p {
+  font-family: "Lato-Semibold";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.food,
+.cars,
+.movies,
+.nfl,
+.tech {
+  font-family: "Lato-Semibold";
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 2px !important;
+}
+.food {
+  color: #3bbdc4;
+}
+.cars {
+  color: #6e99ae;
+}
+.movies {
+  color: #ac8ee3;
+}
+.nfl {
+  color: #ffa34d;
+}
+.tech {
+  color: #3dc47e;
+}
